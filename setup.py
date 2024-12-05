@@ -13,7 +13,7 @@ except FileNotFoundError:
 # Metadata
 setup(
   name = "michaelpy",
-  version = 0.0.0.9000,
+  version = "0.0.1",
   author = "Michael Schötz",
   author_email = "michael.schoetz@th-deg.de",
   description = "Demo Python package",
