@@ -17,7 +17,7 @@ setup(
   author = "Michael Schötz",
   author_email = "michael.schoetz@th-deg.de",
   description = "Demo Python package",
-  license = "Type here what license your package has",
+  license = "Apache License 2.0",
   packages = find_packages(),
   install_requires = requirements
 )
