@@ -1,1 +1,1 @@
-from servus import servus
+from michaelpy.servus import servus
