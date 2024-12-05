@@ -12,11 +12,11 @@ except FileNotFoundError:
 
 # Metadata
 setup(
-  name = "Type here the name of your package",
+  name = "michaelpy",
   version = 0.0.0.9000,
-  author = "Type here your name",
-  author_email = "Type here your email",
-  description = "Describe here your package in one sentence",
+  author = "Michael Schötz",
+  author_email = "michael.schoetz@th-deg.de",
+  description = "Demo Python package",
   license = "Type here what license your package has",
   packages = find_packages(),
   install_requires = requirements
