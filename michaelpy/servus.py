@@ -12,12 +12,12 @@ def servus(name = "world"):
 
   Returns
   -------
-  None
-    Only prints to the console.
+  str:
+    Bavarian greating.
   
   Examples
   --------
-  >>> servus("Hias")
+  >>> print(servus("Hias"))
   >>> Servus Hias! ....
   """
-  print(emojize(f"Servus {name}! Welcome to my first Python package! :thumbs_up:"))
+  return emojize(f"Servus {name}! Welcome to my first Python package! :thumbs_up:")
