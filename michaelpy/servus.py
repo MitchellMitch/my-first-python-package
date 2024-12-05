@@ -1,3 +1,5 @@
+from emoji import emojize
+
 def servus(name = "world"):
   """Servus
   
@@ -18,4 +20,4 @@ def servus(name = "world"):
   >>> servus("Hias")
   >>> Servus Hias! ....
   """
-  print(f"Servus {name}! Welcome to my first Python package!")
+  print(emojize(f"Servus {name}! Welcome to my first Python package! :thumbs_up:"))
